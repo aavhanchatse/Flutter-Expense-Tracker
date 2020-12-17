@@ -97,7 +97,7 @@ class _NewTransactionsState extends State<NewTransactions> {
                         ? CupertinoButton(
                             onPressed: _presentDatePicker,
                             child: Text(
-                              'Choose date',
+                             'Choose date', 
                               style: TextStyle(fontWeight: FontWeight.bold),
                             ),
                           )
